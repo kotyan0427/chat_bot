@@ -30,7 +30,6 @@ function App() {
   };
 
   const selectAnswer = useCallback((selectedAnswer, nextQuestionId) => {
-    console.log(selectedAnswer, nextQuestionId);
     switch (true) {
       case nextQuestionId === "init":
         setTimeout(() => {
